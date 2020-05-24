@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+:root {
+    --blue          : #007bff;
+    --indigo        : #6610f2;
+    --red           : #dc3545;
+    --green         : #28a745;
+    --orange        : #fd7e14;
+    --yellow        : #ffc107;
+    --teal          : #20c997;
+    --gray          : #6c775d;
+    --white         : #fff;
+    --black         : #000;
+    --black-1       : #222222;
+    --dark          : #343a40;
+    --color-base1   : #2d1f81;
+    --color-base2   : #00acee;
+    --color-base3   : #14171A;
+    --color-text    : #555;
+    --color-footer  : #04091e;
+    --family-roboto : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --family        : SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --family-base   : 'Waiting for the Sunrise', cursive;
+    --family-logo   :  'Tangerine', cursive;
+}
+
+* {
+    padding   : 0px;
+    margin    : 0px;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin        : 0;
+    padding       : 0;
+    border        : 0;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size      : 20px;
+}
+
+body {
+    font-family: var(--family-roboto);
+    font-size  : 16px;
+    background : #fff;
+    line-height: 1.6;
+    color      : var(--color-text);
+}
+
+a {
+    text-decoration   : none !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition     : all 0.3s ease-in-out;
+    transition        : all 0.3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight  : 600;
+    color        : inherit;
+    margin-bottom: 0.5em;
+    line-height  : 1.2;
+    font-family  : inherit;
+    padding      : 0;
+    margin       : 0;
+}
+
+p {
+    font-size  : 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    margin-bottom:1rem;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding   : 0px;
+    margin    : 0px;
+}
+
+img {
+    max-width: 100%;
+    height   : auto;
+}
+
+::selection {
+    background: var(--color-base2);
+    color     : #fff;
+}
